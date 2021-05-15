@@ -1,4 +1,4 @@
-console.log("Jatin Yadav");
+console.log("Learn JS);
 var a = 9;
 var b = 10;
 
