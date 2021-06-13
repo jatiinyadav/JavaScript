@@ -23,9 +23,9 @@ let mood = "sleepy";
 let tirednessLevel = 6;
 
 if (mood === "sleepy" && tirednessLevel > 8) {
-  console.log("time to sleep");
+  console.log("Time to sleep");
 } else {
-  console.log("not bed time yet");
+  console.log("Not bed time yet");
 }
 
 //---------------------------------------
@@ -39,12 +39,6 @@ console.log(`The ${writingUtensil} is mightier than the sword.`);
 
 // -------------------------------------
 let isLocked = false;
-
-// if (isLocked) {
-//   console.log('You will need a key to open the door.');
-// } else {
-//   console.log('You will not need a key to open the door.');
-// }
 
 isLocked
   ? console.log("You will need a key to open the door.")

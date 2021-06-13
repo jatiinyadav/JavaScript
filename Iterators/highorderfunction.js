@@ -14,23 +14,6 @@ console.log(is2p2.name);
 
 //-----------------------
 //Functions as Parameters
-const checkThatTwoPlusTwoEqualsFourAMillionTimes = () => {
-  for (let i = 1; i <= 1000000; i++) {
-    if (2 + 2 != 4) {
-      console.log("Something has gone very wrong :( ");
-    }
-  }
-};
-
-const timeFuncRuntime = (funcParameter) => {
-  let t1 = Date.now();
-  funcParameter();
-  let t2 = Date.now();
-  return t2 - t1;
-};
-
-// Write your code below
-let time2p2 = timeFuncRuntime(checkThatTwoPlusTwoEqualsFourAMillionTimes);
 
 const addTwo = (num) => num + 2;
 
@@ -48,3 +31,20 @@ checkConsistentOutput(addTwo, 10);
 
 //-------------------------------
 //
+
+const teste2 = (para) => {
+  return para + 2;
+};
+
+const lettry = (func, val) => {
+  ftry = func(val);
+  stry = func(val);
+
+  if (ftry === stry) {
+    console.log(`Good, value is of ftry: ${ftry} & stry: ${stry}`);
+  } else {
+    console.log("Not good");
+  }
+};
+
+lettry(teste2, 10);

@@ -57,3 +57,37 @@ const surgeonJackson = new Surgeon("Ruth Jackson", "Orthopedics");
 console.log(surgeonRomero.name);
 surgeonRomero.takeVacationDays(3);
 console.log(surgeonRomero.remainingVacationDays);
+
+//----------------------------------------------
+
+class Student {
+  constructor(name, rollno, section) {
+    this._name = name;
+    this._rollno = rollno;
+    this._section = section;
+  }
+
+  get alldetails() {
+    return `\nName: ${this._name} \nRoll No. : ${this._rollno} \nSection: ${this._section} \n`;
+  }
+
+  get sname() {
+    return this._name;
+  }
+
+  get srollno() {
+    return this._rollno;
+  }
+
+  get ssection() {
+    return this._section;
+  }
+}
+
+const StudentDetails1 = new Student("Chloe", 15, "A");
+const StudentDetails2 = new Student("Lucifer", 20, "B");
+const StudentDetails3 = new Student("Amenadiel", 25, "C");
+
+console.log(StudentDetails1.alldetails);
+console.log(StudentDetails2.alldetails);
+console.log(StudentDetails3.alldetails);

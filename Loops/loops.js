@@ -15,10 +15,14 @@ for (let counter = 3; counter >= 0; counter--) {
 //--------------------
 // Looping through Arrays
 
+// Write your code below
+// for (let i = 0; i < vacationSpots.length; i++) {
+//   console.log(`I would love to visit ${vacationSpots[i]}`);
+// }
+
 const vacationSpots = ["Bali", "Paris", "Tulum"];
 
-// Write your code below
-for (let i = 0; i < vacationSpots.length; i++) {
+for (let i = vacationSpots.length - 1; i >= 0; i--) {
   console.log(`I would love to visit ${vacationSpots[i]}`);
 }
 
@@ -40,6 +44,8 @@ for (let i = 0; i < bobsFollowers.length; i++) {
     }
   }
 }
+
+console.log(mutualFollowers);
 
 //----------------------
 //The While Loop

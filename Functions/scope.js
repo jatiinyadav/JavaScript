@@ -22,6 +22,8 @@ console.log(callMyNightSky());
 //-----------------------------
 //Block Scope
 
+const lightWaves = "Test";
+
 function logVisibleLightWaves() {
   const lightWaves = "Moonlight";
   console.log(lightWaves);

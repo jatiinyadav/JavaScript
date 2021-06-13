@@ -6,6 +6,7 @@ const famousSayings = [
 
 const listItem = famousSayings[0];
 console.log(famousSayings[2]);
+console.log(listItem);
 
 //------------------------------------
 //Updating Elements
@@ -21,7 +22,7 @@ condiments = ["Mayo"];
 const utensils = ["Fork", "Knife", "Chopsticks", "Spork"];
 
 utensils[3] = "Spoon";
-condiments[0] = "Mayo";
+// condiments[0] = "Mayo";
 
 console.log(condiments);
 console.log(utensils);
@@ -76,7 +77,9 @@ const groceryList = [
 groceryList.shift();
 console.log(groceryList);
 
-groceryList.unshift("popcorn");
+groceryList[0] = "new juice";
+
+// groceryList.unshift("popcorn");
 console.log(groceryList);
 
 console.log(groceryList.slice(1, 4));
@@ -117,3 +120,27 @@ const target = numberClusters[2][1];
 console.log(target);
 
 //---------------------------------
+var guestList = ["INDIA", "USA", "AUSTRALIA", "FRANCE", "GERMANY"];
+console.log(guestList);
+
+console.log(guestList.length);
+
+console.log(guestList[2]);
+
+console.log(guestList.includes("INDIA"));
+
+console.log(guestList.includes("CANADA"));
+//
+//
+console.log("-----------");
+//
+//
+var yourName = prompt("Enter your name: ");
+
+var guestList = ["Shubham", "Rahul", "Rohan"];
+
+if (guestList.includes(yourName)) {
+  alert("Welcome to the party " + yourName + ".");
+} else {
+  alert("Sorry!!");
+}

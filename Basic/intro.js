@@ -1,4 +1,4 @@
-console.log("Learn JS);
+console.log("Learn JS");
 var a = 9;
 var b = 10;
 

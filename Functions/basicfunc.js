@@ -85,6 +85,3 @@ const plantNeedsWater = (day) => {
 const plantNeedsWater = (day) => (day === "Wednesday" ? true : false);
 const status = plantNeedsWater("Tuesday");
 console.log(status);
-
-//--------------------------------
-//Review Function
