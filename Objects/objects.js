@@ -76,15 +76,13 @@ alienShip.takeOff();
 //---------------------
 //Nested Objects
 
-
 let spaceship = {
   passengers = [{name : Js}],
   tele: {
     yearBuilt: 2020,
   }
-  
-}
 
+}
 
 let spaceship = {
   passengers: [{ name: "Java Script" }],
@@ -194,3 +192,20 @@ for (let j in spaceship.crew) {
 }
 
 //-------------------------
+
+let newobject = {
+  test1: "Test1",
+  test2: "Test2",
+  "test 3": "Test3",
+};
+
+function changenewobj(obj) {
+  return {
+    formatOne: `Value of test1 ${obj.test1}`,
+    formatTwo: `Value of test2 ${obj.test2}`,
+  };
+}
+
+let rtrn = changenewobj(newobject);
+console.log(rtrn);
+console.log(rtrn.formatOne);
