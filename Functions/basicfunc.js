@@ -64,8 +64,8 @@ const plantNeedsWater = function (day) {
   }
 };
 
-const status = plantNeedsWater("Tuesday");
-console.log(status);
+const result = plantNeedsWater("Tuesday");
+console.log(result);
 
 //-------------------------------
 //Arrow Functions
@@ -83,5 +83,5 @@ const plantNeedsWater = (day) => {
 //--------------------------------
 //Concise Body Arrow Functions
 const plantNeedsWater = (day) => (day === "Wednesday" ? true : false);
-const status = plantNeedsWater("Tuesday");
-console.log(status);
+const result_2 = plantNeedsWater("Tuesday");
+console.log(result_2);

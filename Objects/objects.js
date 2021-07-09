@@ -77,15 +77,7 @@ alienShip.takeOff();
 //Nested Objects
 
 let spaceship = {
-  passengers = [{name : Js}],
-  tele: {
-    yearBuilt: 2020,
-  }
-
-}
-
-let spaceship = {
-  passengers: [{ name: "Java Script" }],
+  passengers: { name: "Java Script" },
   telescope: {
     yearBuilt: 2018,
     model: "91031-XLT",

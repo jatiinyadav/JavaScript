@@ -5,7 +5,7 @@ if (score >= 70) {
 }
 
 if (score < 70 && score >= 40) {
-  console.log("Your love score is: " + score + "% \nNaice🤗 ");
+  console.log("Your love score is: " + score + "% \nNice🤗 ");
 }
 
 if (score < 40) {

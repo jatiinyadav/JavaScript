@@ -9,12 +9,12 @@ console.log(logCitySkyline());
 
 //-----------------------------
 // Global Scope
-const satellite = "The Moon";
-const galaxy = "The Milky Way";
-const stars = "North Star";
+const satellite_1 = "The Moon";
+const galaxy_1 = "The Milky Way";
+const stars_1 = "North Star";
 
 function callMyNightSky() {
-  return "Night Sky: " + satellite + ", " + stars + ", and " + galaxy;
+  return "Night Sky: " + satellite_1 + ", " + stars_1 + ", and " + galaxy_1;
 }
 
 console.log(callMyNightSky());
@@ -24,12 +24,12 @@ console.log(callMyNightSky());
 
 const lightWaves = "Test";
 
-function logVisibleLightWaves() {
+function lVisibleLightWaves() {
   const lightWaves = "Moonlight";
   console.log(lightWaves);
 }
 console.log(lightWaves);
-logVisibleLightWaves();
+lVisibleLightWaves();
 
 //----------------------------
 //Scope Pollution
@@ -38,12 +38,12 @@ const satellite = "The Moon";
 const galaxy = "The Milky Way";
 let stars = "North Star";
 
-const callMyNightSky = () => {
+const cMyNightSky = () => {
   stars = "Sirius";
   return "Night Sky: " + satellite + ", " + stars + ", " + galaxy;
 };
 
-console.log(callMyNightSky());
+console.log(cMyNightSky());
 console.log(stars);
 
 //----------------------------
